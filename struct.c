@@ -6,7 +6,7 @@ struct details
 };
 int main()
 {
-    struct details d1;
+    struct details d1,d2;
     printf("size of structure is:%d, size of d1:%d\n",sizeof(struct details),sizeof(d1));//we are printing the size of structure details and the size of var d1.
     printf("Enter the name:\n");
     scanf("%s",d1.name);
