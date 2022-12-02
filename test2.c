@@ -3,6 +3,7 @@ struct details
 {
     char name[50];
     int id;
+    float fees;
 };
 int main()
 {
@@ -12,6 +13,9 @@ int main()
     scanf("%s",d1.name);
     printf("Enter the id:\n");
     scanf("%d",&d1.id);
-    printf("%s\t %d",d1.name,d1.id);
+    printf("Enter the fees details:\n");
+    scanf("%.2f",&d1.fees);
+    
+    printf("%s\t %d\t %.2f",d1.name,d1.id,d1.fees);
     return 0;
 }
